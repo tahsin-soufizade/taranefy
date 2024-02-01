@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #f6b409;
+  --primary-color-light: #ffcd4f;
+  --bg-color: #090218;
+  --bg-color-light: #240046;
+  --bg-hover: #571896;
+}
+
+html {
+  direction: rtl;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-right: 0;
+}
+button {
+  line-height: 0 !important;
+}
+
+body {
+  font-family: sahel, Tahoma;
+  background: var(--bg-color);
+  color: #fff;
+}
+
+@font-face {
+  font-family: sahel;
+  src: url("../assets/sahel.ttf");
+}
